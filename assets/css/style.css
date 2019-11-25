@@ -21,7 +21,6 @@ body {
 
 .container {
     height: 84vh;
-
 }
 
 
@@ -30,13 +29,22 @@ body {
     width: 100%;
     background-image: url(../images/background.png);
     border-radius: 30px;
+    margin-top: 40%;
+    position: relative;
 }
 
 
 #enter {
     color: #F8F4F4;
-    font-size: 400%;
+    font-size: 500%;
     text-align: center;
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+
 }
 
 #aboutmewidget {
@@ -68,9 +76,6 @@ body {
     bottom: 25%;
 }
 
-.containeraboutme {
-    height: 84vh;
-}
 
 h2 {
     background:#F76C5E; 
