@@ -16,12 +16,9 @@ body {
     font-size: 25px;
     background: #332D2D;
     padding-left: 20px;
+    z-index: 4;
 }
 
-.nav-bar-collapse.collapse.show {
-    z-index: 2;
-    background-color: #332D2D;
-}
 
 #containerbackground {
     height:50%;
@@ -75,7 +72,6 @@ h1 {
     font-size:500%;
     position: absolute;
     bottom: 25%;
-    z-index: 2;
 }
 
 .containeraboutme {
