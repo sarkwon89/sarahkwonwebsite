@@ -11,7 +11,7 @@ nav {
     height: 10vh;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     color: #F8F4F4;
     font-size: 25px;
     background: #332D2D;
