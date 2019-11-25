@@ -1,6 +1,7 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     background-image: url(../images/Prestitial.jpg);
+    margin:0%;
 
     
 }
@@ -17,8 +18,8 @@ nav {
     padding-left: 20px;
 }
 
-.nav-bar-collapse.collapse {
-    z-index: 1;
+.nav-bar-collapse.collapse.show {
+    z-index: 2;
 }
 
 #containerbackground {
@@ -80,7 +81,7 @@ h1 {
     height: 84vh;
 }
 
-h1 {
+h2 {
     background:#F76C5E; 
     display: flex;
     justify-content: center;
@@ -88,6 +89,8 @@ h1 {
     height:300px;
     margin:0%;
     border: solid #332D2D;
+    color: #F8F4F4;
+    font-size: 600%;
 }
 
 #aboutmeimagecontainer {
