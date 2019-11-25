@@ -1,0 +1,119 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(../images/Prestitial.jpg);
+
+    
+}
+
+nav {
+    background-color: #332D2D;
+    height: 10vh;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #F8F4F4;
+    font-size: 25px;
+    background: #332D2D;
+    padding-left: 20px;
+}
+
+.nav-bar-collapse.collapse {
+    z-index: 1;
+}
+
+#containerbackground {
+    height:50%;
+    width: 50%;
+    background-image: url(../images/background.png);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#containerwelcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+}
+
+
+
+h1 {
+    color: #F8F4F4;
+    font-size: 500%;
+    text-align: center;
+    height: 100%;
+    width:100%;
+}
+
+#aboutmewidget {
+    width:100%;
+}
+
+.image {
+    width:100%;
+    position:relative;
+}
+
+.image-banner {
+    width:68%;
+    height: 25%;
+    border-radius: 30px;
+    position:absolute;
+    top: 40%;
+    right: 15%;
+}
+
+#banner-aboutme {
+    color: #F8F4F4;
+    margin:0%;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    font-size:500%;
+    position: absolute;
+    bottom: 25%;
+    z-index: 2;
+}
+
+.containeraboutme {
+    height: 84vh;
+}
+
+h1 {
+    background:#F76C5E; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    margin:0%;
+    border: solid #332D2D;
+}
+
+#aboutmeimagecontainer {
+    display: flex;
+    justify-content:center
+
+
+}
+
+#image-aboutme {
+    width: 60%;
+    border: solid #332D2D;
+}
+
+#p-aboutme {
+    background:#F76C5E; 
+    padding: 3%;
+    font-size: 20px;
+    border: solid #332D2D;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 6vh;
+    position: fixed;
+    background-color: #332D2D;
+    color: #F8F4F4;
+    }
