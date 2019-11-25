@@ -2,13 +2,13 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     background-image: url(../images/Prestitial.jpg);
     margin:0%;
-
     
 }
 
 .navbar.navbar-expand-lg.navbar-dark{
     background-color: #332D2D;
     height: 10vh;
+    width: 100%;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -107,6 +107,19 @@ h2 {
     padding: 3%;
     font-size: 20px;
     border: solid #332D2D;
+}
+
+.container {
+
+}
+.portfolio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: 0%;
 }
 
 footer {
