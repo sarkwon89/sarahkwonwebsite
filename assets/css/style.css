@@ -19,30 +19,24 @@ body {
     z-index: 4;
 }
 
+.container {
+    height: 84vh;
+
+}
+
 
 #containerbackground {
     height:50%;
-    width: 50%;
+    width: 100%;
     background-image: url(../images/background.png);
     border-radius: 30px;
-    overflow: hidden;
-}
-
-#containerwelcome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 84vh;
 }
 
 
-
-h1 {
+#enter {
     color: #F8F4F4;
-    font-size: 500%;
+    font-size: 400%;
     text-align: center;
-    height: 100%;
-    width:100%;
 }
 
 #aboutmewidget {
@@ -88,6 +82,8 @@ h2 {
     border: solid #332D2D;
     color: #F8F4F4;
     font-size: 600%;
+    margin: 0%;
+    padding: 0%;
 }
 
 #aboutmeimagecontainer {
@@ -98,8 +94,8 @@ h2 {
 }
 
 #image-aboutme {
-    width: 60%;
     border: solid #332D2D;
+    margin: 10%;
 }
 
 #p-aboutme {
@@ -109,9 +105,7 @@ h2 {
     border: solid #332D2D;
 }
 
-.container {
 
-}
 .portfolio {
     width: 100%;
     display: flex;
