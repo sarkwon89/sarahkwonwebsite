@@ -139,10 +139,10 @@ footer {
         font-size: 300%;
     
     }
-    #image-aboutme {
+    /*#image-aboutme {
         border: solid #332D2D;
         margin: 5%;
-        width: 70%;
+        width: 70%;*/
 }
 }
 
@@ -165,10 +165,10 @@ footer {
         margin-bottom: 15px;
     }
 
-    #image-aboutme {
+    /*#image-aboutme {
         border: solid #332D2D;
         margin: 5%;
-        width: 50%;
+        width: 50%;*/
     }
 
     #banner-aboutme {
