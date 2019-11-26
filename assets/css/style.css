@@ -97,7 +97,7 @@ h2 {
 #image-aboutme {
     border: solid #332D2D;
     margin: 5%;
-    width: 40%;
+    max-width: 100%;
 }
 
 #p-aboutme {
