@@ -20,7 +20,8 @@ body {
 }
 
 .container {
-    height: 84vh;
+margin-bottom: 45%;
+height: 84vh;
 }
 
 
@@ -83,24 +84,21 @@ h2 {
     justify-content: center;
     align-items: center;
     height:300px;
-    margin:0%;
     border: solid #332D2D;
     color: #F8F4F4;
     font-size: 600%;
     margin: 0%;
-    padding: 0%;
 }
 
-#aboutmeimagecontainer {
+#image-aboutmeframe {
     display: flex;
     justify-content:center
-
-
 }
 
 #image-aboutme {
     border: solid #332D2D;
-    margin: 10%;
+    margin: 5%;
+    width:40%;
 }
 
 #p-aboutme {
@@ -111,15 +109,22 @@ h2 {
 }
 
 
-.portfolio {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.card-body {
+    background:#F76C5E; 
+    
 }
 
-.row {
+.card {
+    border: solid #332D2D;
     margin: 0%;
 }
+
+#rowform {
+    position: relative;
+    top:100px;
+}
+
+
 
 footer {
     bottom: 0;
