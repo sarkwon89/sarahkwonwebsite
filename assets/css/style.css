@@ -1,11 +1,11 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     background-image: url(../images/Prestitial.jpg);
-    margin:0%;
-    
+    margin: 0%;
+
 }
 
-.navbar.navbar-expand-lg.navbar-dark{
+.navbar.navbar-expand-lg.navbar-dark {
     background-color: #332D2D;
     height: 10vh;
     width: 100%;
@@ -20,13 +20,12 @@ body {
 }
 
 .container {
-margin-bottom: 45%;
-height: 84vh;
+    margin-bottom: 42%;
 }
 
 
 #containerbackground {
-    height:50%;
+    height: 50%;
     width: 100%;
     background-image: url(../images/background.png);
     border-radius: 30px;
@@ -40,7 +39,7 @@ height: 84vh;
     font-size: 500%;
     text-align: center;
     height: 100%;
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -49,41 +48,41 @@ height: 84vh;
 }
 
 #aboutmewidget {
-    width:100%;
+    width: 100%;
 }
 
 .image {
-    width:100%;
-    position:relative;
+    width: 100%;
+    position: relative;
 }
 
 .image-banner {
-    width:68%;
+    width: 68%;
     height: 25%;
     border-radius: 30px;
-    position:absolute;
+    position: absolute;
     top: 40%;
     right: 15%;
 }
 
 #banner-aboutme {
     color: #F8F4F4;
-    margin:0%;
+    margin: 0%;
     text-align: center;
     width: 100%;
     height: 30%;
-    font-size:500%;
+    font-size: 500%;
     position: absolute;
     bottom: 25%;
 }
 
 
 h2 {
-    background:#F76C5E; 
+    background: #F76C5E;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:300px;
+    height: 300px;
     border: solid #332D2D;
     color: #F8F4F4;
     font-size: 600%;
@@ -92,17 +91,17 @@ h2 {
 
 #image-aboutmeframe {
     display: flex;
-    justify-content:center
+    justify-content: center
 }
 
 #image-aboutme {
     border: solid #332D2D;
     margin: 5%;
-    width:40%;
+    width: 40%;
 }
 
 #p-aboutme {
-    background:#F76C5E; 
+    background: #F76C5E;
     padding: 3%;
     font-size: 20px;
     border: solid #332D2D;
@@ -110,8 +109,8 @@ h2 {
 
 
 .card-body {
-    background:#F76C5E; 
-    
+    background: #F76C5E;
+
 }
 
 .card {
@@ -121,9 +120,8 @@ h2 {
 
 #rowform {
     position: relative;
-    top:100px;
+    top: 100px;
 }
-
 
 
 footer {
@@ -133,4 +131,43 @@ footer {
     position: fixed;
     background-color: #332D2D;
     color: #F8F4F4;
+}
+
+@media screen and (max-width: 1024px) {
+    #banner-aboutme {
+        font-size: 300%;
+    
     }
+    #image-aboutme {
+        border: solid #332D2D;
+        margin: 5%;
+        width: 90%;
+}
+}
+
+@media screen and (max-width: 700px) {
+    h2 {
+        font-size: 300%;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 300%;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+    #image-aboutme {
+        border: solid #332D2D;
+        margin: 5%;
+        width: 90%;
+    }
+
+    #banner-aboutme {
+        font-size: 180%;
+    }
+
+}
