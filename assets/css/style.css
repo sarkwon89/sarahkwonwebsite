@@ -98,6 +98,7 @@ h2 {
     border: solid #332D2D;
     margin: 5%;
     height: auto;
+    width: 40%;
 }
 
 #p-aboutme {
@@ -141,7 +142,8 @@ footer {
     #image-aboutme {
         border: solid #332D2D;
         margin: 5%;
-        height: 300px;
+        height: 400px;
+        width: auto;
 }
 }
 
@@ -168,6 +170,7 @@ footer {
         border: solid #332D2D;
         margin: 5%;
         height: 300px;
+        width: auto;
     }
 
     #banner-aboutme {
