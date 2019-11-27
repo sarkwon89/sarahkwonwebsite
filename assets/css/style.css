@@ -109,8 +109,13 @@ h2 {
 }
 
 
+h4 {
+    color:#332D2D
+}
+
 .card-body {
     background: #F76C5E;
+
 
 }
 
@@ -137,14 +142,15 @@ footer {
 @media screen and (max-width: 1024px) {
     #banner-aboutme {
         font-size: 300%;
-    
+
     }
+
     #image-aboutme {
         border: solid #332D2D;
         margin: 5%;
         height: 400px;
         width: auto;
-}
+    }
 }
 
 @media screen and (max-width: 786px) {
@@ -153,6 +159,7 @@ footer {
         height: 150px;
         margin-bottom: 15px;
     }
+
     .card-deck {
         flex-direction: column;
     }
@@ -161,8 +168,8 @@ footer {
 
 @media screen and (max-width: 500px) {
     h2 {
-        font-size: 300%;
-        height: 150px;
+        font-size: 250%;
+        height: 100px;
         margin-bottom: 15px;
     }
 
