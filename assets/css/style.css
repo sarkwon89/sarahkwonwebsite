@@ -183,4 +183,12 @@ footer {
         font-size: 180%;
     }
 
+    .card {
+        height: 100%;
+    }
+
+    iframe{
+
+    }
+
 }
